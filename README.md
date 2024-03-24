@@ -5,3 +5,5 @@ We believe that growing your own food should be simple, sustainable, and accessi
 Our app integrates precision agriculture, smart irrigation systems, crop monitoring sensors, and AI to provide real-time insights tailored to your unique growing conditions. But we’re more than just a practical tool - we’re a supportive community. Explore our educational resources, connect with experts, and share knowledge with fellow growers on our vibrant forum.
 
 At PlantPal, we champion eco-friendly practices and resource efficiency, ensuring a greener future for generations to come. Whether you’re an urban gardener, hobby farmer, or even small-scale farmer, join our community and unlock the joy of cultivating your crops with confidence.
+
+#green thumb refers to having a talent or special ability for making plants grow well and flourish.
