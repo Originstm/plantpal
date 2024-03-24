@@ -1,0 +1,92 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col justify-center items-start py-5 w-full bg-stone-500">
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+        className="w-9 aspect-square"
+      />
+    </div>
+    <img
+      loading="lazy"
+      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3f07ee1dc122fd30d04d6a79c26dc72939ab84621ee99cbdccf02f766be4fcd3?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+      className="w-full aspect-[1.79]"
+    />
+    <div className="self-center mt-4 text-2xl font-bold text-center text-white">
+      Long Term Viability and Resilience
+    </div>
+    <div className="self-center mt-9 text-sm font-light text-center text-white">
+      Stewarding resources for future generations
+    </div>
+    <div className="flex flex-col px-6 pt-5 mt-8 w-full font-light text-white bg-lime-900">
+      <div className="text-lg">
+        Which sustainable farming methods can be adopted?
+      </div>
+      <div className="mt-7 text-sm">
+        1. Education and Outreach
+        <br />
+        Search for information about the advantages of sustainable farming
+        practices, such as improved soil health, increased resilience to climate
+        change, reduced input costs, and access to premium markets. <br />
+        <br />
+        2.Financial Incentives
+        <br />
+        Government programs, agricultural organizations, and private initiatives
+        can provide financial assistance for infrastructure upgrades, equipment
+        purchases, and training expenses associated with sustainable
+        agriculture.
+        <br />
+        <br />
+        3.Technical Assistance
+        <br />
+        Extension agents, agronomists, and conservation professionals can offer
+        personalized advice, conduct soil tests, develop customized management
+        plans, and troubleshoot challenges faced during the transition to
+        sustainable practices.
+        <br />
+        <br />
+        4.Farmers' Networks and Peer Learning
+        <br />
+        Join farmers' networks, discussion groups, and online forums where
+        producers can exchange experiences, share best practices, and learn from
+        each other's successes and challenges.
+      </div>
+    </div>
+    <div className="flex gap-0 px-5 text-xs font-extralight text-black whitespace-nowrap">
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Home</div>
+      </div>
+      <div className="flex flex-col flex-1 px-7 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="aspect-square w-[25px]"
+        />
+        <div>Search</div>
+      </div>
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Forum</div>
+      </div>
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-400">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Profile</div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,134 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex gap-5 px-5 w-full text-xl font-light text-center text-white">
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+        className="shrink-0 w-9 aspect-square"
+      />
+      <div className="flex-auto my-auto">Tier Benefits</div>
+    </div>
+    <div className="flex gap-4 self-center mt-12 w-full text-black max-w-[317px]">
+      <div className="flex flex-col flex-1 px-5 pt-6 pb-20 rounded-2xl bg-stone-300">
+        <div className="self-center text-2xl font-medium text-center">
+          Silver
+        </div>
+        <div className="flex gap-1.5 mt-4 text-sm font-light">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+            className="shrink-0 aspect-square w-[25px]"
+          />
+          <div className="flex-auto my-auto">Basic features</div>
+        </div>
+      </div>
+      <div className="flex flex-col flex-1 px-3 pt-6 pb-20 rounded-2xl bg-stone-300">
+        <div className="self-center text-2xl font-medium text-center">Gold</div>
+        <div className="flex gap-1.5 mt-4 text-sm font-light">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+            className="shrink-0 self-start aspect-square w-[25px]"
+          />
+          <div>Get real-time insights for warm outreach</div>
+        </div>
+      </div>
+    </div>
+    <div className="flex gap-4 self-center mt-8 w-full max-w-[317px]">
+      <div className="flex flex-col flex-1 pt-6 pb-20 rounded-2xl bg-stone-300">
+        <div className="self-end text-2xl font-medium text-center text-black">
+          Platinum
+        </div>
+        <div className="flex gap-1.5 mt-2.5">
+          <div className="flex flex-col items-center self-start">
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+              className="aspect-square w-[25px]"
+            />
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+              className="mt-14 aspect-square w-[25px]"
+            />
+          </div>
+          <div className="text-sm font-light text-black">
+            Stand out and get in touch with industrial leaders
+            <br />
+            <br />
+            Get real-time insights for warm outreach
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col flex-1 px-3 pt-6 pb-3.5 rounded-2xl bg-stone-300">
+        <div className="self-center text-2xl font-medium text-center text-black">
+          Diamond
+        </div>
+        <div className="flex gap-1.5 mt-2.5">
+          <div className="flex flex-col items-center self-start">
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+              className="aspect-square w-[25px]"
+            />
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+              className="mt-14 aspect-square w-[25px]"
+            />
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dab36d0f4790d8e1e8da7e0a09c4ba2e29e4d41ae57914d1cd52f5181a9b60e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+              className="mt-9 aspect-square w-[25px]"
+            />
+          </div>
+          <div className="text-sm font-light text-black">
+            Stand out and get in touch with industrial leaders
+            <br />
+            <br />
+            Get real-time insights for warm outreach
+            <br />
+            <br />
+            First to be featured in forums and groups
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="flex gap-0 px-5 mt-20 text-xs font-extralight text-black whitespace-nowrap">
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Home</div>
+      </div>
+      <div className="flex flex-col flex-1 px-7 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="aspect-square w-[25px]"
+        />
+        <div>Search</div>
+      </div>
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Forum</div>
+      </div>
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-400">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=7510f69e20c647d59d2eab51e2ce068a&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Profile</div>
+      </div>
+    </div>
+  );
+}

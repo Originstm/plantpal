@@ -1,0 +1,25 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col items-center py-20 bg-stone-300 max-w-[360px]">
+      <div className="flex overflow-hidden relative flex-col self-stretch px-16 pt-20 pb-9 mt-6 text-black aspect-[0.95]">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/8d0182b0d650eeecd73f1f6644be320bb3ee53616957da242c55660f72036c7a?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="object-cover absolute inset-0 size-full"
+        />
+        <div className="relative mt-48 text-5xl font-bold">PLANTPAL</div>
+        <div className="relative text-sm font-extralight">
+          N A T U R E | O R G A N I C | S I M P L E
+        </div>
+      </div>
+      <div className="justify-center items-center px-16 py-5 mt-14 w-full text-base text-white whitespace-nowrap rounded-2xl bg-stone-500 max-w-[273px]">
+        Login
+      </div>
+      <div className="justify-center items-center px-16 py-5 mt-8 w-full text-base rounded-2xl border border-solid bg-stone-300 border-stone-500 max-w-[273px] text-stone-500">
+        Sign Up
+      </div>
+    </div>
+  );
+}

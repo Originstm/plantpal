@@ -1,0 +1,57 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col px-8 pt-20 pb-9 text-xs bg-stone-300 max-w-[360px]">
+      <div className="mt-7 text-3xl font-bold text-black">
+        Create an
+        <br />
+        Account
+      </div>
+      <div className="flex gap-3 px-3.5 py-3 mt-20 border border-solid shadow-sm bg-stone-300 border-stone-500 text-zinc-500">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ee85c37e755b1a4830dc63f3b0b7909d811cc738a5883ef1c4cc6255e94a06f4?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="shrink-0 w-5 aspect-square"
+        />
+        <div className="flex-auto my-auto">Email Address</div>
+      </div>
+      <div className="flex gap-3 px-3.5 py-3 mt-7 whitespace-nowrap border border-solid shadow-sm bg-stone-300 border-stone-500 text-zinc-500">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="shrink-0 w-5 aspect-square"
+        />
+        <div className="flex-auto my-auto">Password</div>
+      </div>
+      <div className="flex gap-3 px-3.5 py-3 mt-7 border border-solid shadow-sm bg-stone-300 border-stone-500 text-zinc-500">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/43c9cabe099cd51f5460b180d8f1d6e6b9b79de9ddb69886998e8c3b8451bf46?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="shrink-0 w-5 aspect-square"
+        />
+        <div className="flex-auto my-auto">Confirm Password</div>
+      </div>
+      <div className="justify-center items-center self-center px-16 py-5 mt-16 w-full text-sm text-white rounded-2xl bg-stone-500 max-w-[273px]">
+        Sign Up
+      </div>
+      <div className="self-center mt-6 text-xs text-stone-500">
+        Or Sign Up with
+      </div>
+      <div className="flex gap-2 self-center px-20 py-3.5 mt-4 text-sm text-white whitespace-nowrap rounded-2xl bg-stone-500">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/49435d49d0813954bba1f96ef589c0095569fa0a37b9b1b3efa0b116853f417b?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="shrink-0 w-5 aspect-square"
+        />
+        <div>Google</div>
+      </div>
+      <div className="flex gap-2.5 self-center mt-28 text-xs">
+        <div className="grow font-light text-black">
+          Already have an account?
+        </div>
+        <div className="font-bold underline text-stone-500">Login now</div>
+      </div>
+    </div>
+  );
+}

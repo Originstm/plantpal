@@ -1,0 +1,93 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="justify-center items-start px-2.5 py-4 text-lg whitespace-nowrap bg-white rounded-2xl text-zinc-500">
+      Search
+    </div>
+    <div className="flex gap-5 justify-between items-start mt-6">
+      <div className="flex flex-col">
+        <div className="text-lg font-medium">Suggested</div>
+        <div className="flex gap-4 mt-5">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&"
+            className="shrink-0 aspect-square w-[30px]"
+          />
+          <div className="flex-auto my-auto">Bird’s eye chili</div>
+        </div>
+        <div className="flex gap-4 mt-2.5">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&"
+            className="shrink-0 aspect-square w-[30px]"
+          />
+          <div className="flex-auto my-auto">Cherry tomato</div>
+        </div>
+        <div className="flex gap-4 mt-2.5">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&"
+            className="shrink-0 aspect-square w-[30px]"
+          />
+          <div className="flex-auto my-auto">Japanese cucumber</div>
+        </div>
+      </div>
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/77565e702dbf5a62dfb1c4daa1e713671b5940109f8eaa5c26d6fbb932891205?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 w-5 aspect-square"
+      />
+    </div>
+    <div className="flex gap-4 mt-2.5">
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 aspect-square w-[30px]"
+      />
+      <div className="flex-auto my-auto">Cavendish banana</div>
+    </div>
+    <div className="flex gap-4 mt-2.5">
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e65b5ec89802cb68ff63921687c610f69c2dcd737c2d3b186c6ea50a261bf53b?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 aspect-square w-[30px]"
+      />
+      <div className="flex-auto my-auto">Easter lily cactus</div>
+    </div>
+    <div className="flex gap-0 px-5 mt-96 text-xs font-extralight text-black whitespace-nowrap">
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/73df8ff59e40af69a4178f3f172a1aba1e435b195a233c87dda0705abfd67b3e?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Home</div>
+      </div>
+      <div className="flex flex-col flex-1 px-7 py-2 bg-stone-400">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c1c80ebe0b36f4de12c9c5aa42dba744dd557fe900631d5437c9450187db6c9f?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="aspect-square w-[25px]"
+        />
+        <div>Search</div>
+      </div>
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5f4a40db1b9411521f252dfe3c1c7fa5e9d1491770347c82226403741a4283f8?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Forum</div>
+      </div>
+      <div className="flex flex-col flex-1 px-8 py-2 bg-stone-300">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f3b7e2753a20af50cb9fdfbaa07210219a35db4fa2702d5dbe624a935059aae?apiKey=701dc26d64f94df682217ad159bfac28&"
+          className="self-center aspect-[1.08] w-[27px]"
+        />
+        <div>Profile</div>
+      </div>
+    </div>
+  );
+}

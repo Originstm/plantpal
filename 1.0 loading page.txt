@@ -1,0 +1,13 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex flex-col justify-center py-20 bg-stone-300 max-w-[360px]">
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d66b38a3443752d87ef582aba078931a3dc4f361cea270b52d69c0fd5448b0de?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="mt-14 w-full aspect-[0.9]"
+      />
+    </div>
+  );
+}

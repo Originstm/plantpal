@@ -1,0 +1,81 @@
+import * as React from "react";
+
+function MyComponent() {
+  return (
+    <div className="flex gap-5 self-stretch px-5 w-full text-lg font-bold text-center">
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29a534ffabac4bfba6bcbbb1d4383b5fd7ec18d21940f6d4218e4b682194469?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 w-9 aspect-square"
+      />
+      <div className="flex-auto my-auto">SEARCH FILTER</div>
+    </div>
+    <div className="mt-3 leading-8">Harvest Time</div>
+    <div className="flex gap-2 pr-5 mt-2.5 max-w-full w-[291px]">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>&lt; 4 months</div>
+    </div>
+    <div className="flex gap-2 pr-5 mt-2.5 max-w-full w-[291px]">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>4 - 6 months</div>
+    </div>
+    <div className="flex gap-2 pr-5 mt-2.5 max-w-full w-[291px]">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>&gt; 6 months</div>
+    </div>
+    <div className="mt-5 leading-8">Weather</div>
+    <div className="flex gap-2 self-start mt-2.5 ml-9 whitespace-nowrap">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>Hot</div>
+    </div>
+    <div className="flex gap-2 self-start mt-2.5 ml-9 whitespace-nowrap">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>Cold</div>
+    </div>
+    <div className="mt-5 leading-8">Pot Size (Diameter)</div>
+    <div className="flex gap-2 self-start mt-2.5 ml-9">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>&lt; 30cm</div>
+    </div>
+    <div className="flex gap-2 pr-5 mt-2.5">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>30cm - 60cm</div>
+    </div>
+    <div className="flex gap-2 self-start mt-2.5 ml-9">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2018e8c8a942438cba5626fe50682967b4f84ee3f243df4fb8f38d964a320539?apiKey=701dc26d64f94df682217ad159bfac28&"
+        className="shrink-0 self-start w-5 aspect-square"
+      />
+      <div>&gt; 60cm</div>
+    </div>
+  );
+}
