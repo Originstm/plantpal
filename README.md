@@ -8,6 +8,8 @@ At PlantPal, we champion eco-friendly practices and resource efficiency, ensurin
 
 #green thumb refers to having a talent or special ability for making plants grow well and flourish.
 
+
+
 Platform used to develop interface: Figma
 
 Language used: React
